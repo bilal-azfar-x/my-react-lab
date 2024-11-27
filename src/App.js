@@ -1,13 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
-import Greetings from './Components/Greetings.jsx';
-import HelloWorld from './Components/HelloWorld.jsx';
+import './Components/App.css'
+import Header from './Components/Header';
+import Content from './Components/Content';
+import Footer from './Components/footer';
 
-function App() {
+function App () {
   return (
     <div className="App">
-      <Greetings/>
-      <HelloWorld/>
+    <Header/><hr></hr>
+    <Content/><hr></hr>
+    <Footer/>
     </div>
   );
 }

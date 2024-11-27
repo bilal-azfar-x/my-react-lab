@@ -1,11 +1,11 @@
 let name = "Bilal Azfar";
 
-function App() {
-    return (
-      <div className="App">
-        <h1>Greetings! My name is {name}.</h1>
-      </div>
-    );
-  }
+function Greetings() {
+  return (
+    <div className="App">
+      <h1>Hello {name}. Welcome to react!</h1>
+    </div>
+  );
+}
   
-  export default App;
+  export default Greetings;
