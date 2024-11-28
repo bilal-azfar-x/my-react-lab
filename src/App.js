@@ -1,16 +1,16 @@
-import './Components/App.css'
-import Header from './Components/Header';
-import Content from './Components/Content';
-import Footer from './Components/footer';
+import React from 'react';
+import './Styles/App.css';
+import Navbar from './Components/Navbar';
+import LandingPage from './Components/LandingPage.jsx';
+import Footer from './Components/Footer.jsx';
 
-function App () {
+function App() {
   return (
-    <div className="App">
-    <Header/><hr></hr>
-    <Content/><hr></hr>
-    <Footer/>
+    <div>
+      <Navbar />
+      <LandingPage />
+      <Footer />
     </div>
   );
-}
-
+  }
 export default App;

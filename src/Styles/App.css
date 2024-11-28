@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('../Fonts/Poppins/Poppins-Regular.ttf') format('truetype'),
+         url('../Fonts/Poppins/Poppins-Medium.ttf') format('truetype'),
+         url('../Fonts/Poppins/Poppins-SemiBold.ttf') format('truetype'),
+}
+
+body {
+    margin: 0;
+    font-family:'Poppins', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+* {
+    box-sizing: border-box;
+}
