@@ -1,0 +1,17 @@
+.message-card {
+    width: 100%;
+    height: fit-content;
+
+    padding: 20px;
+    list-style: none;
+
+    background-color: white;
+
+    border: 1px solid #d6d6d6;
+    box-shadow: 0 0 7px 5px #edecec;
+    border-radius: 15px;
+}
+
+.list-items {
+    padding-block: 4px;
+}
