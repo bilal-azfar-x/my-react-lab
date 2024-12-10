@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
 import User from './Task 3/Components/User.jsx';
-import Stats from './Task 3/Components/Stats';
-import Messages from './Task 3/Components/Messages';
+import Messages from './Task 3/Components/Messages.jsx';
+import Stats from './Task 3/Components/Stats.jsx';
 
 function App() {
   
   const user1 = {
-    name: "M. Bilal Azfar",
+    name: "Bilal Azfar",
     email: "bilal.azfar@chaajao.com",
     role: "Junior BI Executive",
     profilePicture: <img style = {{height: '120px', width: '120px'}} src="My DP 1-2.jpeg" alt="Image not found."/>,

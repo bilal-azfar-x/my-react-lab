@@ -1,0 +1,104 @@
+.landing-container {
+    margin: 45px 5% 100px 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.all-courses {
+    padding-block: 15px 40px;
+    max-width: 1200px;
+    gap: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.course-box {
+    height: fit-content;
+    width: 400px;
+    padding: 35px 25px 30px 25px;
+    justify-items: start;
+    
+    border: 1px solid #d6d6d6;
+    border-radius: 20px;
+
+    box-shadow: 0 0 7px 5px #f7f7f7;
+}
+
+.course-name {
+    font-family: 'Poppins';
+    font-weight: 700;
+    padding: 4px 0px;
+    font-size: 24px;
+}
+
+.content-count {
+    color: #a81417;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+.courses-button {
+    padding: 12px 30px;
+    font-size: 1rem;
+    background-color: #a81417;
+    color: white;
+    border: none;
+    border-radius: 35px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family:'Poppins', sans-serif;
+}
+
+.courses-button:hover {
+    background-color: #bf171a;
+}
+
+.form-container {
+    height: fit-content;
+    width: 550px;
+    margin-block: 20px 30px;
+    padding: 3% 3%;
+
+    border: 1px solid #d6d6d6;
+    border-radius: 20px;
+
+    box-shadow: 0 0 7px 5px #f7f7f7;
+}
+
+.input-field {
+    max-width: 500px;
+    padding: 8px;
+    margin: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-items {
+    display: flex;
+    flex-direction: column;
+
+    align-items: start;
+    gap: 10px;
+}
+
+.form-button {
+    padding: 9px 35px;
+    margin-block: 20px 0px;
+    align-self: center;
+
+    font-size: 1rem;
+    background-color: #a81417;
+    color: white;
+    border: none;
+    border-radius: 35px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family:'Poppins', sans-serif;
+}
+
+.form-button:hover {
+    background-color: #bf171a;
+}
