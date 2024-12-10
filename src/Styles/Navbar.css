@@ -1,0 +1,64 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 5%;
+    border-bottom: 1.2px solid #f1f4fb;
+}
+
+.navbar-menu {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    margin: 0;
+    padding-block: 0;
+}
+
+.navbar-link {
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.navbar-link:hover {
+    color: #a81417;
+}
+
+.call-button {
+    background: #0b0b0b;
+    padding: 8px 30px;
+    color: white;
+    margin-inline: -4px;
+    border-radius: 35px;
+    text-decoration: none;
+}
+
+.call-button:hover {
+    background-color: #333333;
+}
+
+.chat-button {
+    background: #2cd46b;
+    padding: 8px 30px;
+    margin-inline: -10px;
+    color: white;
+    border-radius: 35px;
+    text-decoration: none;
+}
+
+.chat-button:hover {
+    background-color: #075e54;
+}
+
+.lms-button {
+    background: #a81417;
+    padding: 8px 30px;
+    margin-left: -4px;
+    color: white;
+    border-radius: 35px;
+    text-decoration: none;
+}
+
+.lms-button:hover {
+    background-color: #bc080b;
+}

@@ -1,0 +1,33 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    
+    height: fit-content;
+    width: fit-content;
+    justify-self: center;
+    
+    margin: 7% 20%;
+    
+    border: 1px solid #d6d6d6;
+    border-radius: 15px;
+    box-shadow: 0 0 7px 5px #f7f7f7;
+    overflow: hidden;
+}
+
+.flex-items {
+    margin: 5px 0px;
+}
+
+.card-label {
+    background-color: #991d20;
+    color: white;
+    padding: 12px 26.3%;
+    
+    align-self: center;
+    align-content: center;
+}
+
+.flex-items-group {
+    padding: 20px 30px;
+    justify-items: center;
+}
