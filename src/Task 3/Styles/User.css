@@ -1,0 +1,44 @@
+.user-card {
+    display: flex;
+    flex-direction: column;
+    
+    height: fit-content;
+    width: fit-content;
+    padding: 40px 40px;
+    gap: 10px;
+
+    border: 1.5px solid #ebebd9;
+    border-radius: 25px;
+    box-shadow: 0 0 7px 5px #edecec;
+
+    justify-items: center;
+    align-items: center;
+
+    background-color: white;
+}
+
+.flex-group {
+    justify-items: center;
+    margin-top: 12px;
+}
+
+.flex-items {
+    margin-block: 0px;
+    font-size: 20px;
+}
+
+.profile-pic {
+    border: 4px solid #0180ff;
+    border-radius: 100%;
+    overflow: hidden;
+
+    height: 120px;
+    width: 120px;
+}
+
+.role {
+    background-color: #0180ff;
+    color: white;
+    padding: 4px 14px;
+    border-radius: 15px;
+}

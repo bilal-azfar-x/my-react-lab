@@ -9,7 +9,7 @@ function Greeting(props) {
             <div className="flex-items-group">
                 <p className="flex-items">{name}</p>
                 <p className="flex-items">{age} years old</p>
-                <p className="flex-items">{occupation}</p>
+                <p classNamez="flex-items">{occupation}</p>
                 <p className="flex-items">{location}</p>
             </div>
         </div>

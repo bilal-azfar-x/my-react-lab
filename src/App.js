@@ -1,25 +1,40 @@
 import React from 'react';
 import './App.css';
-//import Greeting from './Task 1/Components/ProfileCard.jsx';
-import ProductCard from './Task 2/Components/ProductCard';
+import User from './Task 3/Components/User.jsx';
+import Stats from './Task 3/Components/Stats';
+import Messages from './Task 3/Components/Messages';
 
 function App() {
+  
+  const user1 = {
+    name: "M. Bilal Azfar",
+    email: "bilal.azfar@chaajao.com",
+    role: "Junior BI Executive",
+    profilePicture: <img style = {{height: '120px', width: '120px'}} src="My DP 1-2.jpeg" alt="Image not found."/>,
+  };
+
+  const stats1 = {
+    totalUsers: 1000,
+    activeUsers: 450,
+    newSignups: 180,
+    activePercentage: (450/1000)*100
+  };
+
+  const messages1 = {
+    message1: "The number of active of users at any given time do not fall below 100.",
+    message2: "All-time highest new signups in a day are 496.",
+    message3: "Peak season is the month before exams."
+  };
+
   return (
-    //<div>
-      //<Greeting name="M. Bilal Azfar" age={20} occupation="Data Scientist" location="Karachi, Pakistan"/>
-    //</div>
-    <div>
-      <ProductCard 
-        title="SONY WH-1000XM5" 
-        description="Active Noise Cancelling (ANC), over-ear headphones."
-        price="$249.99"
-        imageURL={"https://www.sony.com/is/image/gwtprod/6145c1d32e6ac8e63a46c912dc33c5bb?fmt=png-alpha&wid=515&hei=515&trf=trim"}/>
-      <ProductCard 
-        title="Soundcore Liberty 4 NC" 
-        description="Active Noise Cancelling (ANC), in-ear headphones."
-        price="$99.99"
-        imageURL={"https://cdn.shopify.com/s/files/1/0516/3761/6830/files/3947Z11.jpg?v=1711008771"}/>
+    <div className='flex-box'>
+      <User user={user1} />
+      <div className='flex-box2'>
+        <Stats stats={stats1} />
+        <Messages messages={messages1} />
+      </div>
     </div>
   );
-  }
+}
+
 export default App;
