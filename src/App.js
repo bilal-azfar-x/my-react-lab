@@ -1,14 +1,23 @@
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
-//import Counter from './Components/Task 1.jsx';
-//import Calculator from './Components/Task 2.jsx';
-import Login_Form from './Components/Task 3';
+import Home from './Pages/Home';
+import About from './Pages/About';
+import Contact from './Pages/Contact';
+import User from './Pages/User';
 
 function App() {
   return (
-    <div className='body'>
-      <Login_Form />
-    </div>
+    <Router>
+      <div className='body'>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/user/:userId" element={<User />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 

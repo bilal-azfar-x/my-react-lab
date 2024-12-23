@@ -1,0 +1,29 @@
+.img {
+    width: 160px;
+    padding-top: 10px;
+}
+
+.div-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px 20px 50px;
+    border-bottom: 1.2px solid #d9d9d9;
+}
+
+.left-section {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+    color: #a81417;
+}
+
+.link:hover {
+    color: #660c0d;
+}
